@@ -26,13 +26,11 @@
     
     <!-----------------------Хедер----------------------------->
     
-    <header class="header">
-      <div class="container header_container">
+    <header class="header container header_container">
 
         <!-- Лого-->
-        <div class="logo" >
           <a href="./index.html" class="logo__link logo__link_header"> <span class="logo__accent">Web</span>Studio</a>
-        </div>
+
 
         <!-- Мобильная кнопка навигации -->
         <button 
@@ -82,14 +80,12 @@
             </ul>
           </div>
 
-          <div class="header__social">
             <ul class="header__social__list list">
               <li class="header__social__item"><a class="header__social__link" href="./index.html">Instagram</a></li>
               <li class="header__social__item"><a class="header__social__link" href="./index.html">Twitter</a></li>
               <li class="header__social__item"><a class="header__social__link" href="./index.html">Facebook</a></li>
               <li class="header__social__item"><a class="header__social__link" href="./index.html">LinkedIn</a></li>
             </ul>
-          </div>
 
 
         </div>
@@ -108,8 +104,7 @@
           </nav>
           
           <!-- Контакты-->
-          <div class="contacts">
-            <ul class="contacts__list list"> 
+            <ul class="contacts contacts__list list"> 
               <li class="contacts__item"><a href="mailto:info@devstudio.com" class="contacts__link">
                 <svg class="contacts__icon" width=16px height=20px> <use class="contacts--icon" href='./images/icons.svg#icon-envelope'></use> </svg>
                 info@devstudio.com</a>  </li>
@@ -121,36 +116,29 @@
 
               
             </ul>
-          </div>
         </div>
         
-
-      </div> 
     </header>
 
 
 
   <main>
     <!-------------------Герой--------------------------------->
-    <section class="hero">
-      <div class="container">
+    <section class="hero container">
         <h2 class="hero__title">Эффективные решения <br> для вашего бизнеса</h2>
     
         <button data-modal-open type="button" class="button">Заказать услугу</button>
     
-      </div>
     </section>
     
     <!------------------Особенности--------------------->
-    <section class="feature section"> 
-      <div class="container">
+    <section class="feature section container"> 
         <h2  class="visibility">Скрытый заголовок </h2>
         
 
         <!-- Feature 1-->
         <ul class="feature__list list"> 
           <li class="feature__item">
-            <div class="feature__wrap">
               <div class="feature__icon__container">
                 <svg class="feature__icon" width=70px height=70px >
                   <use class="feature__icon--antenna" href='./images/icons.svg#icon-antenna' ></use>
@@ -160,14 +148,12 @@
               <p class="feature__text"
               >Идейные соображения, а также начало повседневной работы по
               формированию позиции.</p>
-            </div>
           </li>
           
           
       
         <!-- Feature 2-->
           <li class="feature__item">
-            <div class="feature__wrap">
               <div class="feature__icon__container">
                 <svg class="feature__icon" width=70px height=70px>
                   <use class="feature__icon--clock" href='./images/icons.svg#icon-clock' ></use>
@@ -176,13 +162,11 @@
               <h3 class="feature__title">Пунктуальность</h3>
               <p class="feature__text">Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.</p>
-            </div>
           </li>
         
           <!-- Feature 3-->
           
           <li class="feature__item">
-            <div class="feature__wrap">
               <div class="feature__icon__container">
                 <svg class="feature__icon" width=70px height=70px>
                   <use class="feature__icon--diagram" href='./images/icons.svg#icon-diagram' ></use>
@@ -191,12 +175,10 @@
               <h3 class="feature__title">Планирование</h3>
               <p class="feature__text">Равным образом консультация с широким активом в значительной степени
               обуславливает.</p>
-          </div>
           </li>
         
           <!-- Feature 4-->
           <li class="feature__item">
-            <div class="feature__wrap">
               <div class="feature__icon__container">
                 <svg class="feature__icon" width=70px height=70px>
                   <use class="feature__icon--astronaut" href='./images/icons.svg#icon-astronaut' ></use>
@@ -205,16 +187,13 @@
               <h3 class="feature__title">Современные технологии</h3>
               <p class="feature__text">Значимость этих проблем настолько очевидна, что реализация плановых
               заданий.</p>
-            </div>
           </li>
         
         </ul>
-      </div>
     </section>
 
     <!---------------------- Чем мы занимаемся---------------->
-    <section class="about section">
-      <div class="container">
+    <section class="about section container">
         <h2 class="about__title section__title">Чем мы занимаемся</h2>
         <ul class="about__list list">
 
@@ -264,12 +243,11 @@
             </div>
           </li>
         </ul>
-      </div>
+
     </section>
 
     <!-------------------------Наша команда----------------->
-    <section class="section team">
-      <div class="container">
+    <section class="section team container">
         <h2 class="section__title">Наша команда</h2>
         <!--Команда 4 фотки с подписью-->
         <ul class="team__list list">
@@ -499,14 +477,12 @@
           </li>
 
         </ul>
-      </div>
     </section>
 
 
     <!-- ------------------Клиенты компании--------------- -->
 
-    <section class="clients section">
-      <div class="container">
+    <section class="clients section container">
         <h2 class="clients__title section__title">Постоянные клиенты</h2>
 
         <!-- список -->
@@ -566,14 +542,12 @@
             </a>
           </li>
         </ul>
-      </div>
       </section>
 
       
     <!---------------------Модальное окно-------------------->
 
-    <div data-modal class="backdrop is-hidden">
-      <div class="modal">
+    <div data-modal class="backdrop is-hidden modal">
         <button data-modal-close class="modal__close" type="button">
           <svg class="icon__close"  width=11px height=11px >
             <use class="icon__close__button" href='./images/icons.svg#icon-close-modal'></use>
@@ -644,22 +618,18 @@
         <button type="submit" class="form__button button">отправить</button>
 
         </form>
-      </div>
     </div>
     
 
   </main>
 
     <!-----------------------------Футер ---------------------->
-    <footer class="footer">
-      <div class="container footer-wrap">
+    <footer class="footer container footer-wrap">
 
         <!-- Контейнер с лого и адресами -->
         <div class="footer__information">
           <!-- Лого-->
-          <div class="logo">
             <a href="./index.html" class="logo__link logo--footer"> <span class="logo__accent">Web</span>Studio</a>
-          </div>
           <!--Адрес-->
           <address class="footer__address">
             <ul class="footer__address__list list">
@@ -725,7 +695,6 @@
             </div>
           </form>
         </div>
-      </div>
     </footer>
 
 
