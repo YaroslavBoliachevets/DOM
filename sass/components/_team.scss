@@ -55,6 +55,10 @@
   
     margin: 0 0 10px 0;
 }
+
+.super-cool { 
+    color: tomato;
+  }
   
 .team__text { 
     @include font($color:$second-text, $fz:16px, $fw:500, $fh:1.19, $ls:0.03em);

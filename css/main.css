@@ -944,6 +944,10 @@ a {
   margin: 0 0 10px 0;
 }
 
+.super-cool {
+  color: tomato;
+}
+
 .team__text {
   font-family: Roboto;
   color: #757575;
