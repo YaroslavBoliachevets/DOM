@@ -16,7 +16,8 @@
         "../sass/components/_modal.scss",
         "../sass/components/_modal-form.scss",
         "../sass/components/_filter.scss",
-        "../sass/components/_portfolio.scss"
+        "../sass/components/_portfolio.scss",
+        "../sass/components/_galyarea.scss"
     ],
     "names": [],
     "file": "main.css"

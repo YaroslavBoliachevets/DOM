@@ -24,22 +24,22 @@
 
 
 //  Cоздаем и добавляем новый пункт меню ====================================================================
-// const navLinkEl = document.createElement('a');
-// const newItemNavEl = document.createElement('li');
+const navLinkEl = document.createElement('a');
+const newItemNavEl = document.createElement('li');
 
-// navLinkEl.classList.add('nav__link'); 
-// navLinkEl.href = '/ervv.ua'; 
-// navLinkEl.textContent = 'Галярея';
+navLinkEl.classList.add('nav__link'); 
+navLinkEl.href = './galary.html'; 
+navLinkEl.textContent = 'Галярея';
 
-// newItemNavEl.classList.add('nav__item'); 
+newItemNavEl.classList.add('nav__item'); 
 
 
-// newItemNavEl.appendChild(navLinkEl);
-// console.log('', newItemNavEl);
+newItemNavEl.appendChild(navLinkEl);
 
-// const navEl = document.querySelector('.nav__list');
 
-// navEl.append(newItemNavEl); 
+const navEl = document.querySelector('.nav__list');
+
+navEl.append(newItemNavEl); 
 
 
 // // создаю список ===================================================================
